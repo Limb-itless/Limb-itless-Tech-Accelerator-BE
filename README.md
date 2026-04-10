@@ -18,4 +18,27 @@ This approach promotes:
 - Smaller, incremental changes
 
 To maintain stability, all changes merged into main must pass automated checks and code review before integration.
- 
+
+## Running Application
+1) Ensure you have installed and activated the virtual environment: 
+
+    In main directory run commands: 
+   - python -m venv venv 
+   - source venv/Scripts/activate
+
+2) Install the requirements found in requirements.txt
+
+    In main directory run command:
+   - pip install -r requirements.txt
+
+3) Start application:
+
+    In main directory run command
+    - uvicorn main:app --reload
+
+## Access API
+1) To access the interactive API documentation, 
+go to http://127.0.0.1:8000/docs. 
+   - FastAPI automatically generates this documentation using Swagger UI.
+2) You can also access alternative API documentation at http://127.0.0.1:8000/redoc, 
+which uses ReDoc.
