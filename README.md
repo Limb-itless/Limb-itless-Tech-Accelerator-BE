@@ -24,8 +24,10 @@ To maintain stability, all changes merged into main must pass automated checks a
 1) Ensure you have installed and activated the virtual environment: 
 
     In main directory run commands: 
-   - python -m venv venv 
-   - source venv/Scripts/activate
+   - python -m venv venv
+   - macOS/Linux: `source venv/bin/activate`
+   - Windows (Command Prompt): `venv\Scripts\activate`
+   - Windows (PowerShell): `venv\Scripts\Activate.ps1`
 
 2) Install the requirements found in requirements.txt
 
