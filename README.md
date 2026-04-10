@@ -5,6 +5,7 @@
 - Siphamandla Malaza
 - Jessica Harrison
 - Reuben Ellis
+- Nkanyiso Shabane
 
 ## Branching Strategy
 
