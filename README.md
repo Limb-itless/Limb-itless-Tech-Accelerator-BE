@@ -36,8 +36,9 @@ To maintain stability, all changes merged into main must pass automated checks a
 
 3) Start application:
 
-    In main directory run command
-    - uvicorn main:app --reload
+    In main directory run command:
+    - fastapi run (for production server)
+    - fastapi dev (for dev server)
 
 ## Access API
 1) To access the interactive API documentation, 
